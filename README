@@ -1,0 +1,11 @@
+This is the build system tor-ramdisk.  I only works if you run it on a uclibc system.  You
+can get a chroot from the Gentoo mirrors.  See:
+
+http://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64-uclibc-hardened/
+http://distfiles.gentoo.org/releases/x86/autobuilds/current-stage3-i686-uclibc-hardened/
+
+Authors:
+
+Anthony Basile (blueness)
+	<basile@opensource.dyc.edu>
+	<blueness@gentoo.org>
