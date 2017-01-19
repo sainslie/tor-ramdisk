@@ -48,8 +48,8 @@ get_sources()
 	mkdir -p sources
 	cd sources
 
-	[[ ! -f $BUSYBOX.tar.bz2 ]] && wget http://www.busybox.net/downloads/$BUSYBOX.tar.bz2
-	[[ ! -f $TOR.tar.gz ]] && wget http://www.torproject.org/dist/$TOR.tar.gz
+	[[ ! -f $BUSYBOX.tar.bz2 ]] && wget https://www.busybox.net/downloads/$BUSYBOX.tar.bz2
+	[[ ! -f $TOR.tar.gz ]] && wget https://www.torproject.org/dist/$TOR.tar.gz
 	[[ ! -f $NTPD.tar.gz ]] && wget ftp://ftp.openbsd.org/pub/OpenBSD/OpenNTPD/$NTPD.tar.gz
 	[[ ! -f $OPENSSH.tar.gz ]] && wget ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$OPENSSH.tar.gz
 }

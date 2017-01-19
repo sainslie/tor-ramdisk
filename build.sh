@@ -71,12 +71,12 @@ get_sources()
 	mkdir -p sources
 	cd sources
 
-	[[ ! -f $BUSYBOX.tar.bz2 ]] && wget http://www.busybox.net/downloads/$BUSYBOX.tar.bz2
-	[[ ! -f $TOR.tar.gz ]] && wget http://www.torproject.org/dist/$TOR.tar.gz
-	[[ ! -f $NTPD.tar.gz ]] && wget http://ftp.openbsd.org/pub/OpenBSD/OpenNTPD/$NTPD.tar.gz
-	[[ ! -f $LINUX.tar.xz ]] && wget http://www.kernel.org/pub/linux/kernel/v4.x/$LINUX.tar.xz
+	[[ ! -f $BUSYBOX.tar.bz2 ]] && wget https://www.busybox.net/downloads/$BUSYBOX.tar.bz2
+	[[ ! -f $TOR.tar.gz ]] && wget https://www.torproject.org/dist/$TOR.tar.gz
+	[[ ! -f $NTPD.tar.gz ]] && wget https://ftp.openbsd.org/pub/OpenBSD/OpenNTPD/$NTPD.tar.gz
+	[[ ! -f $LINUX.tar.xz ]] && wget https://www.kernel.org/pub/linux/kernel/v4.x/$LINUX.tar.xz
 	[[ ! -f $PATCHES.tar.bz2 ]] && wget http://dev.gentoo.org/~blueness/hardened-sources/hardened-patches/$PATCHES.tar.bz2 
-	[[ ! -f $OPENSSH.tar.gz ]] && wget http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$OPENSSH.tar.gz
+	[[ ! -f $OPENSSH.tar.gz ]] && wget https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$OPENSSH.tar.gz
 	[[ ! -f $HAVEGED.tar.gz ]] && wget http://www.issihosts.com/haveged/$HAVEGED.tar.gz
 }
 
